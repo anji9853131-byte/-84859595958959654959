@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+    background-color: #080b14;
+    color: #ffffff;
+  }
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', monospace, sans-serif;
+}
+
+.font-rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+@keyframes pulse-glow-red {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(255, 59, 92, 0.4), inset 0 0 10px rgba(255, 59, 92, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 59, 92, 0.8), inset 0 0 20px rgba(255, 59, 92, 0.4);
+  }
+}
+
+@keyframes pulse-glow-blue {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(54, 169, 255, 0.4), inset 0 0 10px rgba(54, 169, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(54, 169, 255, 0.8), inset 0 0 20px rgba(54, 169, 255, 0.4);
+  }
+}
+
+.glow-red {
+  animation: pulse-glow-red 2s infinite ease-in-out;
+}
+
+.glow-blue {
+  animation: pulse-glow-blue 2s infinite ease-in-out;
+}

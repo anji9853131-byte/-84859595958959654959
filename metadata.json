@@ -1,0 +1,6 @@
+{
+  "name": "MAGNET RUSH",
+  "description": "극을 바꾸고 살아남아라 — 3D 느낌의 네온 마그네틱 아케이드 러너 게임",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
